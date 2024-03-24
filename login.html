@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webite log in page (rohit jha)</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">service</a>
+        <a href="#">contact</a>
+        <button class="btnlogin-popup">Log in</button>
+
+    </nav>
+</header>
+<div class="wrapper active">
+     <span class="icon-close">
+        <ion-icon name="close"></ion-icon>
+     </span>
+    <div class="from-box-login">
+         <h2>login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                
+                <label>email</label>
+
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                <input type="password" required>
+                 <label>password</label>
+            
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">remember me  </label>
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">log in</button>
+            <div class="login-register">
+                <p>Don't have a account?
+                <a href="#" class="register-link">register</a></p>
+            </div>
+
+        </form>
+    </div>
+    <div class="from-box-register">
+        <h2>registion</h2>
+       <form action="#">
+           <div class="input-box">
+            <div class="input-box">
+                <ion-icon name="person"></ion-icon>
+                <input type="text" required>               
+                <label>username</label>
+            </div>
+               <!-- <span class="icon"><ion-icon name="mail"></ion-icon></span>
+               <input type="email" required>               
+               <label>email</label> -->
+           </div>
+           <div class="input-box">
+               <span class="icon"><ion-icon name="lock"></ion-icon></span>
+               <input type="password" required>
+                <label>password</label>
+           
+           </div>
+           <div class="remember-forgot">
+               <label><input type="checkbox">I agree to the term and condition </label>
+              
+           </div>
+           <button type="submit" class="btn">log in</button>
+           <div class="login-register">
+               <p>Alredy  have a account?
+               <a href="#" class="login-link">login</a></p>
+           </div>
+
+       </form>
+   </div>
+
+</div>
+    
+</body>
+<script src="login.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</html>
